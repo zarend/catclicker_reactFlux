@@ -21,7 +21,7 @@ var Cat = React.createClass({
             <div>
                <img src={"assets/" + this.props.img} alt="cat" width="300" onClick={this.catClickHandler}/>
             </div>
-            you have clicked {this.props.name} {this.state.clicks} times
+            you clicked {this.props.name} {this.state.clicks} times
          </div>
       )
    }
