@@ -8,7 +8,7 @@ var App = React.createClass({
    },
    render: function() {
       var Cats = this.state.cats.map(function(nextCat) {
-         return (<Cat name={nextCat.name} id={nextCat.id} img={nextCat.img} />);
+         return (<Cat name={nextCat.name} id={nextCat.id} img={nextCat.img} key={nextCat.id}/>);
       })
 
       return (
