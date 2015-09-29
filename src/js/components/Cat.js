@@ -17,11 +17,13 @@ var Cat = React.createClass({
    },
    render: function() {
       return (
-         <div>
+         <div className="cat">
             <div>
                <img src={"assets/" + this.props.img} alt="cat" width="300" onClick={this.catClickHandler}/>
             </div>
-            you clicked {this.props.name} {this.state.clicks} times
+            <div>
+               you clicked {this.props.name} {this.state.clicks} times
+            </div>
          </div>
       )
    }

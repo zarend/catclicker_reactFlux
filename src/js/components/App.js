@@ -13,8 +13,10 @@ var App = React.createClass({
 
       return (
          <div>
-            <h1>Welcome to cat clicker</h1>
-            { Cats }
+            <h1 className="title">Welcome to cat clicker</h1>
+            <div className="cats">
+               { Cats }
+            </div>
          </div>
       );
    }
