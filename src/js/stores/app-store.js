@@ -11,9 +11,11 @@ var _numClicks = 0;
 var _cats = [
    { name: 'Burrito', img: 'burrito.jpg' },
    { name: 'Bullet', img: 'bullet.jpg' },
-   { name: 'kitty', img: 'cat.jpg' },
-   { name: 'Kyle', img: 'kyle.png'},
-   { name: 'Lejon', img: 'lejon.jpg'}
+   { name: 'Sergeant Whiskers', img: 'cat.jpg' },
+   { name: 'Kyle', img: 'kyle.png' },
+   { name: 'Lejon', img: 'lejon.jpg' },
+   { name: 'Singer', img: 'singer.jpg' },
+   { name: 'Sushi arnesitoanresiotanrseiot arseiotanr seitoan rseiotn aresit anresiotan resiotasnr', img: 'sushi.jpg' }
 ];
 
 for (var idx in _cats) {
