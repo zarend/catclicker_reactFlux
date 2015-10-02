@@ -2,33 +2,21 @@ body {
   background-color: #EEE;
 }
 
+.title {
+  padding-left: 2rem;
+}
 .cats {
   display: flex;
   flex-flow: row wrap;
-
-  .cat {
-    
-  }
 }
 
-.cats {
-  .cat {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-  }
+.cats .cat {
+  background-color: white;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 300px;
 }
-
-.cat {
-    background-color: white;
-    margin: 1rem;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    max-width: 300px;
-  }
-
-  .title {
-    padding-left: 2rem;
-  }
+  
