@@ -15,7 +15,7 @@ var _cats = [
    { name: 'Kyle', img: 'kyle.png' },
    { name: 'Lejon', img: 'lejon.jpg' },
    { name: 'Singer', img: 'singer.jpg' },
-   { name: 'Sushi arnesitoanresiotanrseiot arseiotanr seitoan rseiotn aresit anresiotan resiotasnr', img: 'sushi.jpg' }
+   { name: 'Sushi', img: 'sushi.jpg' }
 ];
 
 for (var idx in _cats) {
